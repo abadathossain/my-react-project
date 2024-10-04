@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './Counter'
+import Users from './Users'
 
 function App() {
   
@@ -15,6 +16,7 @@ const addToFive=(num)=>{
     <>
 
       <h1>Vite + React</h1>
+      <Users></Users>
       <Counter></Counter>
      <button onClick={handleClick}>Click me</button>
 

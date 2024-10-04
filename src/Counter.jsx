@@ -5,6 +5,10 @@ export default function Counter() {
     const [count, setCount]=useState(0)
 
     const handleAdd=()=>{
+        // can not mutable in initial data because this imutable
+        // for example: count=count+1 
+        // This is not possible to update
+        
         const newCount=count+1;
         setCount(newCount)
     }
