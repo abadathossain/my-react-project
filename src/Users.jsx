@@ -17,7 +17,7 @@ export default function Users() {
     <div className="user-class">
 <h1 >Users:{users.length}</h1>
 {
-  users.map(user=><User user={user}></User>)
+  users.map(user=><User user={user} key={user.id}></User>)
 }
     </div>
   )
